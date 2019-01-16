@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity" >
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <RelativeLayout
+        android:background="@color/grey_bg"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:id="@+id/sourceLocationCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_current_address"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:text="@string/your_current_location"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/sourceLocationCardView"
+        android:id="@+id/deliveryLocationCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:background="@null"
+            android:id="@+id/et_delivery_address"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:hint="@string/enter_destination_location"
+            android:textColorHint="@color/grey_medium"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:scrollHorizontally="false"
+            android:maxLines="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:background="@color/grey_text"
+        android:textSize="16sp"
+        android:textColor="@color/grey_soft"
+        android:layout_alignParentBottom="true"
+        android:text="@string/request"
+        android:id="@+id/btn_request"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+</RelativeLayout>

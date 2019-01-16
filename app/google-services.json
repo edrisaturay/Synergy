@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "933342051750",
+    "firebase_url": "https://synergy-50a0d.firebaseio.com",
+    "project_id": "synergy-50a0d",
+    "storage_bucket": "synergy-50a0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933342051750:android:186fdd2a95b65cdc",
+        "android_client_info": {
+          "package_name": "com.edrisa.zoko.synergy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933342051750-qq2t5434lucmkgicda7qt1mvr9034ihb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edrisa.zoko.synergy",
+            "certificate_hash": "daf55ee2b24eed39c350f7f8c9fe052987bcc5a2"
+          }
+        },
+        {
+          "client_id": "933342051750-a8047o9emjc7m1jbkoi0tth3o604u740.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--ELMw10xFiKHPhJhWScfqD43iD2W3DE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933342051750-a8047o9emjc7m1jbkoi0tth3o604u740.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933342051750:android:9ce1393541cad352",
+        "android_client_info": {
+          "package_name": "com.edrisa.zoko.synergydriverapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933342051750-0kl5fcoq8pcpmgfuho27vpk41nnidn0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edrisa.zoko.synergydriverapplication",
+            "certificate_hash": "41f173add1031083211c12743f324cab62e3fce0"
+          }
+        },
+        {
+          "client_id": "933342051750-a8047o9emjc7m1jbkoi0tth3o604u740.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--ELMw10xFiKHPhJhWScfqD43iD2W3DE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933342051750-a8047o9emjc7m1jbkoi0tth3o604u740.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933342051750:android:7a5023d8a747e929",
+        "android_client_info": {
+          "package_name": "com.edrisa.zoko.synergyuserapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933342051750-tcfp4jf8eubajmg5i1bldb5jp5fr1bn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edrisa.zoko.synergyuserapplication",
+            "certificate_hash": "41f173add1031083211c12743f324cab62e3fce0"
+          }
+        },
+        {
+          "client_id": "933342051750-a8047o9emjc7m1jbkoi0tth3o604u740.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--ELMw10xFiKHPhJhWScfqD43iD2W3DE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933342051750-a8047o9emjc7m1jbkoi0tth3o604u740.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

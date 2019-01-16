@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Synergy</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="your_current_location">Your Current Location</string>
+    <string name="enter_destination_location">Enter Destination Location</string>
+    <string name="request">Request</string>
+</resources>
